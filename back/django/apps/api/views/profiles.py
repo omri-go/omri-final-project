@@ -62,3 +62,5 @@ def profile_detail(request,pk):
     else:
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         
+
+
